@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    background-color: #5169a7;
+    padding: 15px 10px;
+}
+
+nav > h1 {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+nav > a {
+    font-size: 0.85rem;
+    padding-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+nav > a :visited {
+    color: black;
+}
+
+nav > :nth-child(3n) {
+    font-weight: 900;
+}
+
+section {
+    background-color: #d09d72;
+}
+
+main {
+    background-color: #d1bead;
+}
+
+footer {
+    background-color: #5169a7;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer > img {
+    width: 80px;
+}
+
+.display-flex {
+    display: flex;
+}
