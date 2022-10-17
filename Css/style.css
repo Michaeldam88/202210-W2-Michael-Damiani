@@ -34,9 +34,12 @@ section {
     padding: 12px 10px;
 }
 
-section > img {
+section img {
     width: 26px;
     height: 25px;
+}
+
+section a {
     margin-right: auto;
 }
 
@@ -56,6 +59,10 @@ ul {
 
 li {
     font-size: 0.85rem;
+}
+
+li:hover {
+    color: #d55e0a;
 }
 
 li > :nth-child(2) {
