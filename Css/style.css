@@ -29,8 +29,18 @@ nav > :nth-child(3n) {
 
 section {
     background-color: #d09d72;
+    padding: 15px 10px;
 }
 
+section > img {
+    width: 26px;
+    height: 25px;
+    margin-right: auto;
+}
+
+section > h3 {
+    font-weight: 300;
+}
 main {
     background-color: #d1bead;
 }
